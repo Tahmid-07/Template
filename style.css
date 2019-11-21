@@ -1,0 +1,285 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+/*header section*/
+.header{
+	background-color: white;
+}
+.header h2{
+    transform: translate(235px,7px);
+	padding: 10px;
+
+}
+.header-icon{
+    transform: translate(1100px,-22px);
+}
+/*image section*/
+.image{
+
+	background-image:url(2.jpg);
+	width: 100%;
+	height: 700px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.image h2{
+	color: white;
+	font-size: 40px;
+	top: 70%;
+    transform: translate(235px,350px);
+	left: 17%;
+}
+.image-button{
+	color: black;
+	background-color: white;
+	top: 90%;
+    transform: translate(235px,360px);
+	left: 17%;
+	border-radius: 15px;
+	font-size: 15px;
+	padding: 10px;
+	border: none;
+}
+.image-button:hover{
+	background-color: blue;
+	transition: o.7s;
+	cursor: pointer;
+}
+.image-inside{
+	
+    background-image: linear-gradient(to right, red , yellow);
+	width: 60%;
+	height: 100px;
+    transform: translate(235px,512px);
+}
+.image-inside p{
+	font-size: 20px;
+	color: white;
+	padding: 15px;
+	padding-left: 50px;
+	padding-top: 35px;
+
+}
+.image-button1{
+	color: black;
+	background-color: white;
+	border-radius: 15px;
+	font-size: 15px;
+	padding: 10px;
+	border: none;
+	transform: translate(650px,-45px);
+}
+/*help section*/
+.help{
+	height: 700px;
+	background-color:	#DCDCDC;
+}
+.help h2{
+	text-align: center;
+    padding-top: 100px;
+    font-size: 30px;
+}
+.help p{
+	text-align: center;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    
+}
+.poor-people{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+
+}
+.poor-image {
+    margin: 5px;
+    padding: 10px;
+    font-size: 30px;
+    height: 400px;
+}
+.poor-image h2{
+    padding-top: 0px;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.poor-image p{
+	color: #808080
+    padding-top: 0px;
+    font-size: 13px;
+    text-align: left;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+.image1 p{
+	text-align: left;
+    font-size: 20px;
+
+}
+/*welcome section*/
+.welcome{
+	width: 100%;
+	height: 450px;
+}
+.image-left{
+	float: left;
+	width: 50%;
+	height: 450px;    
+}
+.introduction-right{
+	float: right;
+	width: 50%;
+	height: 450px;
+	background-color: 	#181818;
+}
+.introduction-right h2{
+	color: white;
+	transform: translate(80px,130px);
+}
+.introduction-right p{
+	color: #808080;
+	transform: translate(80px,130px);
+}
+.btn{
+
+	color: black;
+	background-image: linear-gradient(to right, red , yellow);
+    transform: translate(80px,130px);
+	border-radius: 15px;
+	font-size: 15px;
+	padding: 10px;
+	border: none;
+}
+.btn:hover{
+	
+    background-color: blue;
+	transition: o.7s;
+	cursor: pointer;
+}
+/*volunteer section*/
+.volunteers{
+	height: 600px;
+	background-color: 	#d3d3d3;
+}
+.volunteers h2{
+	text-align: center;
+    padding-top: 100px;
+    font-size: 30px;
+}
+.volunteers p{
+	text-align: center;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    
+}
+.volunteers-picture{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+
+}
+.volunteers-picture  div {
+    margin: 5px;
+    padding: 10px;
+    font-size: 30px;
+}
+/*donate section*/
+.donate{
+    height: 650px;
+	background-color:#181818;
+	width: 100%;
+}
+.left-donate{
+	color: white;
+	transform: translate(150px,180px);
+	float: left;
+}
+.left-donate h2{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.left-donate p{
+	font-size: 15px;
+	color: #808080;
+	margin-bottom: 10px;
+}
+.right-donate{	
+    float: right;
+    margin-top: 70px;
+    margin-right: 350px;	
+	
+}
+.right-donate h2{
+	font-size: 25px;
+	color: white;
+	margin-bottom: 10px;
+
+
+}
+.right-donate p{
+	font-size: 15px;
+	color: #808080;
+
+}
+.form input{
+	width: 100%;
+	background-color: #181818;
+	border-color: #2F4F4F;
+	padding: 5px;
+}
+.form textarea{
+	width: 100%;
+	background-color: #181818;
+	border-color: #2F4F4F;
+	color: #808080;
+	padding: 5px;
+}
+.form-button{
+	color: black;
+	background-color: white;
+	border-radius: 15px;
+	font-size: 15px;
+	padding: 10px;
+	border: none;
+	float: right;
+}
+.form-button:hover{
+	
+    background-color: blue;
+	transition: o.7s;
+	cursor: pointer;
+}
+/*footer section*/
+.footer{
+	background-color: white;
+	width: 100%;
+	height: 200px;
+}
+.footer p{
+	text-align: center;
+	word-spacing: 20px;
+	padding-top: 40px;
+}
+.social-media-icon{
+	text-align: center;
+	word-spacing: 30px;
+	padding-top: 15px;
+}
+.Copyright{
+	text-align: center;
+	padding-top: 15px;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
